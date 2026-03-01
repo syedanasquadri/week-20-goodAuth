@@ -19,7 +19,7 @@ const handler = NextAuth({
             const user = {
                 name: "harkirat",
                 id: "1",
-                username: "harkirat@gmail.com"
+                email: "harkirat@gmail.com"
             }
             if(user){
                 return user;
